@@ -62,6 +62,22 @@ width: 5px;
     justify-content: center;
     align-items: center;
 }
+
+.contorno{
+    height: 180px;
+    width: 200px;
+    border: 20px solid green;
+    position: absolute;
+ }
+    
+.pantalla-arriba{
+    border: 2px solid black;
+    height: 180px;
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 10px;
+}
 /* Esta seccion da estilos a los elementos de la bisagra */
 
 #bisagra{
@@ -157,5 +173,19 @@ width: 5px;
     align-items: center;
 }
 
-
+.contorno{
+    height: 180px;
+    width: 200px;
+    border: 20px solid green;
+    position: absolute;
+ }
+    
+.pantalla-abajo{
+    border: 2px solid black;
+    height: 180px;
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 10px;
+}
 
