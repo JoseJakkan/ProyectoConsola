@@ -139,6 +139,22 @@ width: 5px;
 
 }
 
+.cruceta-horizontal{
+
+    background-color: aquamarine;
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    
+}
+    
+ .cruceta-vertical{
+    background-color: aquamarine;
+     height: 50px;
+    width: 20px;
+    position: absolute;
+}
+
 .lateral-dr1{
     border: 1px sienna solid;
     height: 180px;
