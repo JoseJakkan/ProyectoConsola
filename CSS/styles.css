@@ -17,6 +17,27 @@
     flex-direction: column;
 }
 
+.lateral{
+    border: 1px solid green;
+    height: 81px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+}
+.cuadro-top{
+    border: 1px solid turquoise;
+    height: 10px;
+    width: 10px;
+    margin-top: 15px;
+}
+    
+.cuadro-bottom{
+    border: 1px solid turquoise;
+    height: 10px;
+    width: 10px;
+    margin-top: 50px;
+}
+
 .pantalla{
     border: 1px solid black;
     width: 250px;
