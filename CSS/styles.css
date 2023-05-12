@@ -232,7 +232,24 @@ width: 5px;
     
 }
 
-
+.comandos{
+    border: 1px solid orangered;
+    border-radius: 20px;
+    height: 10px;
+    width: 10px;
+    
+}
+    
+.bot{
+     display: flex;
+}
+    
+.start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+ }
 .pantalla{
     border: 1px solid black;
     width: 250px;
