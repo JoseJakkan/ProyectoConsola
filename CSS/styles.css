@@ -38,6 +38,22 @@
     margin-top: 50px;
 }
 
+.altavoz{
+     display: grid;
+     grid-template-columns: repeat(3, 10px);
+    grid-template-rows: repeat(2, 10px);
+    row-gap: 5px;
+    column-gap: 5px;
+
+}
+
+.punto{
+background-color: black;
+border-radius: 20px;
+height: 5px;
+width: 5px;
+}
+
 .pantalla{
     border: 1px solid black;
     width: 250px;
