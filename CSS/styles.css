@@ -17,44 +17,6 @@
     flex-direction: column;
 }
 
-.lateral{
-    border: 1px solid green;
-    height: 81px;
-    width: 125px;
-    display: flex;
-    align-items: center;
-}
-
-.cuadro-top{
-    border: 1px solid turquoise;
-    height: 10px;
-    width: 10px;
-    margin-top: 15px;
-}
-
-.cuadro-bottom{
-    border: 1px solid turquoise;
-    height: 10px;
-    width: 10px;
-    margin-top: 50px;
-}
-
-.altavoz{
-    display: grid;
-    grid-template-columns: repeat(3, 10px);
-    grid-template-rows: repeat(2, 10px);
-    row-gap: 5px;
-    column-gap: 5px;
-
-}
-
-.punto{
-    background-color: black;
-    border-radius: 20px;
-    height: 5px;
-    width: 5px;
-}
-
 .pantalla{
     border: 1px solid black;
     width: 250px;
@@ -63,23 +25,6 @@
     justify-content: center;
     align-items: center;
 }
-
-.contorno{
-    height: 180px;
-    width: 200px;
-    border: 20px solid green;
-    position: absolute;
-}
-
-.pantalla-arriba{
-    border: 2px solid black;
-    height: 180px;
-    width: 200px;
-    z-index: 1;
-    position: absolute;
-    border-radius: 10px;
-}
-
 /* Esta seccion da estilos a los elementos de la bisagra */
 
 #bisagra{
@@ -141,23 +86,6 @@
 
 }
 
-.cruceta-horizontal{
-   
-    background-color: aquamarine;
-    height: 20px;
-    width: 50px;
-    position: absolute;
-    
-}
-
-.cruceta-vertical{
-    
-    background-color: aquamarine;
-    height: 50px;
-    width: 20px;
-    position: absolute;
-}
-
 .lateral-dr1{
     border: 1px sienna solid;
     height: 180px;
@@ -167,61 +95,6 @@
     justify-content: center;
     align-items: center;
 
-}
-
-.botonX{
-    height: 20px;
-    width: 20px;
-    border: 2px solid orangered;
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    grid-column-start: 2;
-    margin-top: 50px;
-    
-}
-
-.botonY{
-    height: 20px;
-    width: 20px;
-    border: 2px solid orangered;
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    grid-row-start: 2;
-    margin-top: 50px;
-    
-}
-
-.botonA{
-    height: 20px;
-    width: 20px;
-    border: 2px solid orangered;
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    grid-row-start: 2;
-    grid-column-start: 3;
-    margin-top: 50px;
-   
-    
-}
-
-.botonB{
-    height: 20px;
-    width: 20px;
-    border: 2px solid orangered;
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    grid-row-start: 3;
-    grid-column-start: 2;
-    margin-top: 50px;
-    
 }
 
 .lateral-dr2{
@@ -237,25 +110,6 @@
     
 }
 
-.comandos{
-    border: 1px solid orangered;
-    border-radius: 20px;
-    height: 10px;
-    width: 10px;
-   
-}
-
-.bot{
-    display: flex;
-}
-
-.start{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   
-}
-
 
 .pantalla{
     border: 1px solid black;
@@ -264,23 +118,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.contorno{
-    height: 180px;
-    width: 200px;
-    border: 20px solid green;
-    position: absolute;
-    border-radius: 10px;
-}
-
-.pantalla-abajo{
-    border: 2px solid black;
-    height: 180px;
-    width: 200px;
-    z-index: 1;
-    position: absolute;
-    border-radius: 10px;
 }
 
 
