@@ -1,46 +1,77 @@
+/* Estos son los elementos primarios */
+:root{
+    --main-color: #01DFD7; 
+    --secondary-color: #069691; 
+    
+}
+
+
 /* Esta seccion da estilos a los elementos de la consola de arriba */
 
 .consola-arriba{
-    border: 1px solid black;
+   border-radius: 10px;
     height: 250px;
     width: 500px;
     display: flex;
     border-radius: 10px;
-    
 }
 
-.lateral-arriba{
-    border: 1px solid black;
+
+
+.lateral-arribai{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     width: 125px;
     height: 250px;
     display: flex;
     flex-direction: column;
+    background-color: var(--main-color);
+}
+
+.lateral-arribad{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 125px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+}
+
+.lateral-arribai>div:nth-child(){
+    border-top-left-radius: 10px;
+}
+
+.lateral-arribad>div:nth-child(){
+    border-bottom-left-radius: 10px;
 }
 
 .lateral{
-    border: 1px solid green;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     height: 81px;
     width: 125px;
     display: flex;
     align-items: center;
 }
 .cuadro-top{
-    border: 1px solid turquoise;
+    border: 1px solid var(--secondary-color);
     height: 10px;
     width: 10px;
     margin-top: 15px;
+    
 }
     
 .cuadro-bottom{
-    border: 1px solid turquoise;
+    border: 1px solid var(--secondary-color);
     height: 10px;
     width: 10px;
     margin-top: 50px;
 }
 
 .altavoz{
-     display: grid;
-     grid-template-columns: repeat(3, 10px);
+    display: grid;
+    grid-template-columns: repeat(3, 10px);
     grid-template-rows: repeat(2, 10px);
     row-gap: 5px;
     column-gap: 5px;
@@ -48,26 +79,29 @@
 }
 
 .punto{
-background-color: black;
-border-radius: 20px;
-height: 5px;
-width: 5px;
+    background-color: black;
+    border-radius: 20px;
+    height: 5px;
+    width: 5px;
 }
 
-.pantalla{
-    border: 1px solid black;
+.pantalla1{
+    
     width: 250px;
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--main-color);
 }
 
 .contorno{
     height: 180px;
     width: 200px;
-    border: 20px solid green;
+    border: 20px solid #047b82;
     position: absolute;
+    box-shadow: -5px 5px 10px #042c3a;
+    border-radius: 10px;
  }
     
 .pantalla-arriba{
@@ -77,36 +111,62 @@ width: 5px;
     z-index: 1;
     position: absolute;
     border-radius: 10px;
+    background-color: black;
 }
 /* Esta seccion da estilos a los elementos de la bisagra */
 
 #bisagra{
-    border: 1px solid blue;
+    border: 1px solid var(--secondary-color);
     width: 500px;
     height: 20px;
     border-radius: 20px;
     display: flex;
+    background-color: var(--main-color);
 
 }
 
 .extremo{
-    border: 1px solid red;
+    border: 1px sol var(--secondary-color);
     height: 20px;
     width: 50px;
-    border-left: transparent;
-    border-right: transparent;
+    display: flex;
+    justify-content: center;
+    column-gap: 3px;
+}
+
+.extremo>div:nth-child(1){
+    background-color: #808080
+}
+
+.extremo>div:nth-child(2){
+    background-color:#6e0404
+}
+
+.luces{
+    border: 1px solid black;
+    width: 5px;
+    height: 15px;
 }
 
 .centro{
-    border: 1px solid red;
+    
     height: 20px;
     width: 400px;
-    
+    display: flex;
+    justify-content: center;
+}
+
+.luz{
+    border: 1px solid black;
+    width: 5px;
+    height: 15px;
+    background-color: black;
+    margin-top: 1px;
 }
 
 /* esta seccion da estilos a la consola de abajo */
 .consola-abajo{
-    border: 1px solid black;
+    border-radius: 10px;
     height: 250px;
     width: 500px;
     display: flex;
@@ -114,88 +174,147 @@ width: 5px;
     
 }
 
-.lateral-abajo{
-    border: 1px solid black;
+.lateral-abajoi{
+    background-color: var(--main-color);
     width: 125px;
     height: 250px;
     display: flex;
     flex-direction: column;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.lateral-abajod{
+    background-color: var(--main-color);
+    width: 125px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.lateral-abajoi>div:nth-child(){
+    border-top-left-radius: 10px;
+}
+
+.lateral-abajod>div:nth-child(){
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .lateral{
-    border: 1px solid green;
+    background-color: var(--main-color);
     height: 81px;
     width: 125px;
     display: flex;
     justify-content: center;
+    
 }
 
 .lateral-izq{
-    border: 1px sienna solid;
+    background-color: var(--main-color);
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top-left-radius: 10px;
 
 }
 
 .cruceta-horizontal{
-
-    background-color: aquamarine;
+    background-color: var(--secondary-color);
     height: 20px;
-    width: 50px;
+    width: 60px;
     position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 10px);
+    justify-content: center;
+    z-index: 1;
+    column-gap: 10px;
+    box-shadow: 0px 10px 10px #042c3a;
     
 }
-    
- .cruceta-vertical{
-    background-color: aquamarine;
-     height: 50px;
+
+.cruceta-horizontal>span:nth-last-child(1){
+   grid-column-start: 3;
+   margin-top: 5px;
+}
+
+.cruceta-horizontal>span{
+    margin-top: 5px;
+    font-size: 10px;
+ }
+
+.cruceta-vertical{
+    background-color: var(--secondary-color);
+     height: 60px;
     width: 20px;
     position: absolute;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    z-index: 1;
+    column-gap: 10px;
+    
+    
+}
+
+.cruceta-vertical>span:nth-last-child(1){
+    grid-row-start: 3;
+ }
+
+.cruceta-vertical>span{
+    margin-top: 5px;
+    font-size: 9px;
 }
 
 .lateral-dr1{
-    border: 1px sienna solid;
+    background-color: var(--main-color);
     height: 180px;
     display: grid;
-    grid-template-columns: repeat(3, 20px);
-    grid-template-rows: repeat(3, 20px);
+    grid-template: repeat(3, 20px)/ repeat(3, 20px);
     justify-content: center;
     align-items: center;
+    border-top-right-radius: 10px;
+    
 
 }
 
 .botonX{
-     height: 20px;
+    height: 20px;
     width: 20px;
-     border: 2px solid orangered;
+    border: 2px solid var(--secondary-color);
     border-radius: 20px; 
     display: flex;
     justify-content: center;
     align-content: center;
     grid-column-start: 2;
     margin-top: 50px;
+    box-shadow: -1px 5px 10px #042c3a;
      
  }
     
 .botonY{
-     height: 20px;
-     width: 20px;
-    border: 2px solid orangered;
+    height: 20px;
+    width: 20px;
+    border: 2px solid var(--secondary-color);
     border-radius: 20px; 
     display: flex;
     justify-content: center;
     align-content: center;
     grid-row-start: 2;
     margin-top: 50px;
+    box-shadow: -1px 5px 10px #042c3a;
     
 }
     
 .botonA{
     height: 20px;
     width: 20px;
-    border: 2px solid orangered;
+    border: 2px solid var(--secondary-color);
     border-radius: 20px; 
     display: flex;
     justify-content: center;
@@ -203,12 +322,13 @@ width: 5px;
     grid-row-start: 2;
     grid-column-start: 3;
     margin-top: 50px;
+    box-shadow: -1px 5px 10px #042c3a;
  }
     
 .botonB{
     height: 20px;
     width: 20px;
-    border: 2px solid orangered;
+    border: 2px solid var(--secondary-color);
     border-radius: 20px; 
      display: flex;
     justify-content: center;
@@ -216,11 +336,12 @@ width: 5px;
     grid-row-start: 3;
     grid-column-start: 2;
     margin-top: 50px;
+    box-shadow: -1px 5px 10px #042c3a;
      
 }
 
 .lateral-dr2{
-    border: 1px sienna solid;
+    background-color: var(--main-color);
     height: 100px;
     display: grid;
     grid-template-columns: repeat(2, 10px);
@@ -229,14 +350,17 @@ width: 5px;
     align-content: center;
     column-gap: 6px;
     row-gap: 10px;
+    border-bottom-right-radius: 10px;
     
 }
 
 .comandos{
-    border: 1px solid orangered;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
     border-radius: 20px;
     height: 10px;
     width: 10px;
+    box-shadow: -1px 5px 10px #042c3a;
     
 }
     
@@ -250,8 +374,8 @@ width: 5px;
     align-items: center;
     
  }
-.pantalla{
-    border: 1px solid black;
+.pantalla2{
+    background-color: var(--main-color);
     width: 250px;
     height: 250px;
     display: flex;
@@ -259,15 +383,11 @@ width: 5px;
     align-items: center;
 }
 
-.contorno{
-    height: 180px;
-    width: 200px;
-    border: 20px solid green;
-    position: absolute;
- }
+
     
 .pantalla-abajo{
     border: 2px solid black;
+    background-color: black;
     height: 180px;
     width: 200px;
     z-index: 1;
