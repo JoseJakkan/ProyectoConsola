@@ -2,11 +2,19 @@
 :root{
     --main-color: #01DFD7; 
     --secondary-color: #069691; 
-    
 }
 
 
 /* Esta seccion da estilos a los elementos de la consola de arriba */
+
+.contenedor {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
 .consola-arriba{
    border-radius: 10px;
@@ -14,6 +22,7 @@
     width: 500px;
     display: flex;
     border-radius: 10px;
+    border: 1px solid var(--secondary-color);
 }
 
 
@@ -111,8 +120,14 @@
     z-index: 1;
     position: absolute;
     border-radius: 10px;
-    background-color: black;
+    
 }
+
+.pantalla-arriba>img{
+    height: 100%;
+    width: 100%;
+}
+
 /* Esta seccion da estilos a los elementos de la bisagra */
 
 #bisagra{
@@ -171,6 +186,7 @@
     width: 500px;
     display: flex;
     border-radius: 10px;
+    border: 1px solid var(--secondary-color);
     
 }
 
@@ -250,7 +266,7 @@
 
 .cruceta-vertical{
     background-color: var(--secondary-color);
-     height: 60px;
+    height: 60px;
     width: 20px;
     position: absolute;
     display: grid;
@@ -258,7 +274,14 @@
     justify-content: center;
     z-index: 1;
     column-gap: 10px;
-    
+}
+
+.sombra{
+    box-shadow: 0px 12px 10px #042c3a;
+    height: 18px;
+    width: 19px;
+    position: absolute;
+   margin-top: 33px;
     
 }
 
@@ -387,11 +410,15 @@
     
 .pantalla-abajo{
     border: 2px solid black;
-    background-color: black;
     height: 180px;
     width: 200px;
     z-index: 1;
     position: absolute;
     border-radius: 10px;
+}
+
+.pantalla-abajo>img{
+    width: 100%;
+    height: 100%;
 }
 
