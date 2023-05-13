@@ -2,6 +2,61 @@
 :root{
     --main-color: #01DFD7; 
     --secondary-color: #069691; 
+    
+}
+
+
+/* Esta seccion da estilo a los elementos del header */
+
+header{
+    background: linear-gradient(#01DFD7,#069691);
+    height: 150px;
+}
+
+#titulo{
+    font-size: 50px;
+    color: var(--secondary-color)
+    
+}
+
+#titulo{
+    color: #053636;
+    animation-name: aparicion;
+    animation-duration: 20s;
+    
+
+}
+
+@keyframes aparicion{
+   from{
+    opacity: 0%;
+   }
+
+   to{
+    opacity: 100%;
+   }
+}
+
+#ds{
+    color: #6e0404;
+    animation-name: move;
+    animation-duration: 5s;
+    font-size: 25px;
+    width: 100%;
+    
+    
+}
+
+@keyframes move{
+    from{
+        margin-left: 100%;
+    }
+
+    to{
+        margin-right: 100%;
+    }
+
+
 }
 
 
@@ -9,11 +64,12 @@
 
 .contenedor {
     display: flex;
-    width: 100vw;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url("/Recursos/fondo.jpg");
+    
+    
   }
 
 .consola-arriba{
@@ -248,9 +304,10 @@
     display: grid;
     grid-template-columns: repeat(3, 10px);
     justify-content: center;
-    z-index: 1;
+    z-index: 2;
     column-gap: 10px;
     box-shadow: 0px 10px 10px #042c3a;
+    
     
 }
 
@@ -272,7 +329,7 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
-    z-index: 1;
+    z-index: 3;
     column-gap: 10px;
 }
 
@@ -281,7 +338,8 @@
     height: 18px;
     width: 19px;
     position: absolute;
-   margin-top: 33px;
+    margin-top: 33px;
+    z-index: 1;
     
 }
 
