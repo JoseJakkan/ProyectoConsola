@@ -78,8 +78,10 @@ header{
     border-radius: 10px;
     border: 1px solid var(--secondary-color);
     translate: 0px 270px;
-    rotate: 180px;
-    z-index: -1;
+    rotate: 180deg;
+    animation-name: pantalla;
+    animation-duration: 10s;
+    animation-delay: 7s;
 }
 
 
@@ -496,7 +498,10 @@ header{
     row-gap: 6px;
     position: absolute;
     z-index: 3;
-    translate: 62px -250px;
+    translate: 500px -250px;
+    animation-name: abrirtapa;
+    animation-duration: 10s;
+    animation-delay: 7s;
     
 
 }
@@ -507,4 +512,24 @@ header{
     border-radius: 10px;
     border: 3px solid var(--secondary-color);
     box-shadow: 0px 10px 10px #042c3a;
+}
+
+/* Esta seccion indica las animaciones de apertura de la consola */
+
+@keyframes abrirtapa{
+   from{}
+
+   to{
+    transform: translateY(-270px) rotateX(180deg);
+    opacity: 0%;
+   }
+    
+}
+
+@keyframes pantalla{
+    from{}
+
+    to{
+        transform: translateY(270px) rotateX(180deg); rotate: 180deg;
+    }
 }
