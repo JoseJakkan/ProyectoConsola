@@ -5,6 +5,9 @@
     
 }
 
+body{
+    background-image: url("/Recursos/fondo.jpg");
+}
 
 /* Esta seccion da estilo a los elementos del header */
 
@@ -23,8 +26,6 @@ header{
     color: #053636;
     animation-name: aparicion;
     animation-duration: 20s;
-    
-
 }
 
 @keyframes aparicion{
@@ -65,12 +66,9 @@ header{
 .contenedor {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    background-image: url("/Recursos/fondo.jpg");
-    
-    
-  }
+    align-items: center;
+}
 
 .consola-arriba{
    border-radius: 10px;
@@ -79,6 +77,9 @@ header{
     display: flex;
     border-radius: 10px;
     border: 1px solid var(--secondary-color);
+    translate: 0px 270px;
+    rotate: 180px;
+    z-index: -1;
 }
 
 
@@ -243,6 +244,7 @@ header{
     display: flex;
     border-radius: 10px;
     border: 1px solid var(--secondary-color);
+    
     
 }
 
@@ -480,3 +482,29 @@ header{
     height: 100%;
 }
 
+/* Esta seccion da estilos a la tapa */
+
+.tapa{
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6px;
+    position: absolute;
+    z-index: 3;
+    translate: 62px -250px;
+    
+
+}
+
+.adorno{
+    height:29px;
+    width: 40px;
+    border-radius: 10px;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0px 10px 10px #042c3a;
+}
