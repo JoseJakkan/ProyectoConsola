@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/styles.css" />
     <title>Proyecto Videoconsola</title>
+    <script>
+      function start(){
+        document.getElementById('bros').src='Recursos/mario.gif';
+        document.getElementById('van').src='Recursos/vandamme.gif';
+        document.getElementById('musica').play();
+    }
+
+    </script>
+    
   </head>
   <body>
+    
     <header>
       <h1 id="titulo">Proyecto Videoconsola</h1>
       <h2 id="ds">Nintendo DS</h2>
     </header>
     <div class="contenedor">
+      
     <!-- Este div y sus hijos son la parte superio de la consola -->
-      <div class="consola-arriba">
-        <div class="lateral-arribai">
+      <div id="consola-arriba">
+         <div class="lateral-arribai">
           <div class="lateral">
             <div class="cuadro-top"></div>
           </div>
@@ -36,7 +47,7 @@
         <div class="pantalla1">
           <div class="contorno"></div>
           <div class="pantalla-arriba">
-            <img src="Recursos/mario.gif" alt="Gif de videojuego Mario Bros">
+            <img id="bros" src="/Recursos/black.png">
           </div>
         </div>
         <div class="lateral-arribad">
@@ -83,7 +94,7 @@
           <div class="pantalla2">
             <div class="contorno"></div>
             <div class="pantalla-abajo">
-              <img src="Recursos/vandamme.gif" alt="Jean-Claude Van Damme bailando vaina ">
+              <img id="van" src="/Recursos/black.png">
             </div>
           </div>
           <div class="lateral-abajod">
@@ -95,7 +106,11 @@
             </div>
             
             <div class="lateral-dr2">
-              <div class="comandos"></div>
+              <button id="boton" onclick="start()">
+              <audio id="musica">
+                <source src="Recursos/mrvain.mp3" type="audio/mpeg">
+          
+              </audio></button>
               <div class="bot"><span class="start">Start</span></div>
               <div class="comandos"></div>
               <div class="bot"><span class="start">Select</span></div>
@@ -104,10 +119,10 @@
         </div>
     </div>
     <!-- Estos elementos son la tapa de la consola -->
-    <dvi class="tapa">
+    <div id="tapa">
       <div class="adorno"></div>
       <div class="adorno"></div>
-    </dvi>
+    </div>
     </body>
   </body>
 </html>
