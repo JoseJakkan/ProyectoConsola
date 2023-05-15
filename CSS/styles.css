@@ -510,7 +510,7 @@ header{
     align-items: center;
     row-gap: 6px;
     
-    translate: 0px 270px;
+    translate: 0px 0px;
     z-index: 3;
     /* animation-name: abrirtapa;
     animation-duration: 2s;
