@@ -80,6 +80,7 @@ header{
     display: flex;
     border-radius: 10px;
     border: 1px solid var(--secondary-color);
+    position: absolute;
     translate: 0px 270px;
     rotate: 180px;
     /* animation-name: pantalla;
@@ -509,8 +510,8 @@ header{
     justify-content: center;
     align-items: center;
     row-gap: 6px;
-    
-    translate: 0px 0px;
+    position: absolute;
+    translate: 0px 270px;
     z-index: 3;
     /* animation-name: abrirtapa;
     animation-duration: 2s;
