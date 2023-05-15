@@ -83,10 +83,10 @@ header{
     
     translate: 0px 270px;
     rotate: 180px;
-    /* animation-name: pantalla;
+    animation-name: pantalla;
     animation-duration: 2s;
     animation-delay: 3s;
-    animation-fill-mode: forwards; */
+    animation-fill-mode: forwards;
 }
 
 
@@ -511,12 +511,12 @@ header{
     align-items: center;
     row-gap: 6px;
     position: absolute;
-    translate: 0px -270px;
+    translate: 500px -270px;
     z-index: 3;
-    /* animation-name: abrirtapa;
+    animation-name: abrirtapa;
     animation-duration: 2s;
     animation-delay: 3s;
-    animation-fill-mode: forwards; */
+    animation-fill-mode: forwards; 
     
 
 }
@@ -532,7 +532,7 @@ header{
 
 /* Esta seccion indica las animaciones de apertura de la consola */
 
-/* @keyframes abrirtapa{
+@keyframes abrirtapa{
    from{}
 
    to{
@@ -551,5 +551,5 @@ header{
     to{
         transform: translateY(-270px) rotateX(180deg) ;
     }
-} */
+}
 
