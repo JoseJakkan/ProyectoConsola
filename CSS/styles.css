@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(".Recursos/fondo.jpg");
+    background-image: url("./Recursos/fondo.jpg");
 }
 
 /* Esta seccion da estilo a los elementos del header */
@@ -501,7 +501,7 @@ header{
 
 #tapa{
     height: 250px;
-    width: 500px;
+    width: 400px;
     border-radius: 10px;
     background-color: var(--main-color);
     display: flex;
