@@ -17,10 +17,9 @@
 <p>Consta de una recreacion de una videoconsola Nintendo DS que, mediante animacion por CSS, se abre al iniciar el proyecto. Despues si se clica en el boton "Start" una funcion de JavaScript reproduce musica y dos imagenes en las pantallas.</p>
 
 ## Deploy
-
 <div align:"center">
-<a href0"https://josejakkan.github.io/ProyectoConsola/">
-URL del Proyecto</a>>
+<a href="https://josejakkan.github.io/ProyectoConsola/">
+URL del Proyecto</a>
 </div>
 
 ## :wrench:Tecnologias Utilizadas
