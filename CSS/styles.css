@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url("Recursos/fondo.jpg");
+    background-image: url(".Recursos/fondo.jpg");
 }
 
 /* Esta seccion da estilo a los elementos del header */
