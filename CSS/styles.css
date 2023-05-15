@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url("Recursos/fondo.jpg");
+    background-image: url("./Recursos/fondo.jpg");
 }
 
 /* Esta seccion da estilo a los elementos del header */
@@ -511,7 +511,7 @@ header{
     row-gap: 6px;
     position: absolute;
     z-index: 3;
-    translate: -500px 270px;
+   
     animation-name: abrirtapa;
     animation-duration: 2s;
     animation-delay: 3s;
