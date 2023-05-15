@@ -501,7 +501,7 @@ header{
 
 #tapa{
     height: 250px;
-    width: 490px;
+    width: 500px;
     border-radius: 10px;
     background-color: var(--main-color);
     display: flex;
@@ -531,7 +531,7 @@ header{
 
 /* Esta seccion indica las animaciones de apertura de la consola */
 
-@keyframes abrirtapa{
+/* @keyframes abrirtapa{
    from{}
 
    to{
@@ -550,5 +550,5 @@ header{
     to{
         transform: translateY(-270px) rotateX(180deg) ;
     }
-}
+} */
 
