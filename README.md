@@ -3,12 +3,12 @@
 ## Índice
 <ul>
 
-<li>·[Descripcion del Proyecto](#descripcion-del-proyecto)</li>
-<li>·[Deploy](#deploy)</li>
-<li>·[Tecnologias Utilizadas](#tecnologias-utilizadas)</li>
-<li>·[Desarolladores del proyecto](#desarolladores-de-proyecto)</li>
-<li>·[Licencias del multimedia](#licencias-del-multimedia)</li>
-<li>·[Futuras mejoras](#futuras-mejoras)</li>
+<li>[Descripcion del Proyecto](#descripcion-del-proyecto)</li>
+<li>[Deploy](#deploy)</li>
+<li>[Tecnologias Utilizadas](#tecnologias-utilizadas)</li>
+<li>[Desarolladores del proyecto](#desarolladores-de-proyecto)</li>
+<li>[Licencias del multimedia](#licencias-del-multimedia)</li>
+<li>[Futuras mejoras](#futuras-mejoras)</li>
 </ul>
 
 ## :blue_book:Descripcion del proyecto
